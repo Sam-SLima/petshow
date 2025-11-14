@@ -18,6 +18,7 @@ const About = () => {
               src={AboutImage1}
               alt="imagem de um gato e um cachorro"
               fill
+              sizes="100vw"
               priority
               quality={100}
             />
@@ -28,6 +29,7 @@ const About = () => {
               src={AboutImage2}
               alt="imagem de um gato e um cachorro"
               fill
+              sizes="100vw"
               priority
               quality={100}
             />
