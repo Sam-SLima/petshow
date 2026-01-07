@@ -74,7 +74,7 @@ const Services = () => {
   return (
     <section className="bg-white py-16">
       <div className="container px-4 mx-auto">
-        <h2 className="text-4xl">Serviços</h2>
+        <h2 className="text-4xl mb-6 font-semibold">Serviços</h2>
       </div>
       <div className="relative">
         <div className="overflow-hidden" ref={emblaRef}>
