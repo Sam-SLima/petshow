@@ -4,6 +4,11 @@ import primier from "../../public/images/primier.png";
 import natural from "../../public/images/natural.png";
 import whiskas from "../../public/images/whiskas.png";
 import Image from "next/image";
+import {
+  FacebookLogoIcon,
+  InstagramLogoIcon,
+  YoutubeLogoIcon,
+} from "@phosphor-icons/react/dist/ssr";
 
 const brands = [
   { name: "Royal Canin", logo: royal },
@@ -40,6 +45,39 @@ const Footer = () => {
             ))}
           </div>
         </div>
+
+        <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">PetShow LTDA</h3>
+            <p className="mb-4">
+              cuidando do seu melhor amigo com amor e carinho.
+            </p>
+            <a className="bg-green-500 rounded-md px-4 py-2" href="">
+              Contato via Whatsapp
+            </a>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
+            <p>Email: PetShow.atendimentos@gmail.com</p>
+            <p>Telefone: (11) 99056 5723</p>
+            <p>Rua Antonio Carlos Garcia, Centro nº349 São Paulo - SP</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-2">Redes Sociais</h3>
+            <div className="flex gap-2">
+              <a href="">
+                <FacebookLogoIcon className="w-8 h-8" />
+              </a>
+              <a href="">
+                <InstagramLogoIcon className="w-8 h-8" />
+              </a>
+              <a href="">
+                <YoutubeLogoIcon className="w-8 h-8" />
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </section>
   );
